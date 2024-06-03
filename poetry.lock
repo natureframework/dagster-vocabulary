@@ -384,7 +384,7 @@ starlette = "*"
 
 [[package]]
 name = "dagster-pieces"
-version = "0.1.0"
+version = "0.2.0"
 description = "Broken pieces assets"
 optional = false
 python-versions = "^3.9"
@@ -400,7 +400,7 @@ reference-parser = {git = "https://github.com/natureframework/reference-parser.g
 type = "git"
 url = "https://github.com/natureframework/dagster-pieces.git"
 reference = "HEAD"
-resolved_reference = "d8f4b3a447a585de3091dca1fc61f36fc36b5cbc"
+resolved_reference = "19b10b0822901a30c43afe474b2842b9499aede0"
 
 [[package]]
 name = "dagster-pipes"

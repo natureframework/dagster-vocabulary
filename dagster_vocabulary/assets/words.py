@@ -4,5 +4,5 @@ from dagster import asset
 
 
 @asset
-def words(pieces: Dict[str, DataFrame]) -> Set[str]:
-    return set(concat(pieces.values())["word"])
+def words(piece: Dict[str, DataFrame]) -> Set[str]:
+    return set(concat(piece.values())["word"])
